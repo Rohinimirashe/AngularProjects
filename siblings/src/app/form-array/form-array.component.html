@@ -1,0 +1,19 @@
+<form [formGroup]="userdata" (ngSubmit)="submit()">
+  <div>
+    <label>First Name</label>
+    <input type="text" placeholder="enter Name" formControlName="first">
+  </div>
+  <div>
+    <label>Last Name</label>
+    <input type="text" placeholder="enter Name" formControlName="last">
+  </div>
+  <div>
+    <label>City</label>
+    <input type="text" placeholder="enter Name" formControlName="city">
+  </div>
+  <div>
+    <button>Submit</button>
+    <button>Cancel</button>
+  </div>
+    
+</form>
